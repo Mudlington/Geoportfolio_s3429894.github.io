@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+<head> <!--Contains Metadata only. Little needs to be changed in this section-->
+<meta charset="utf-8">
+<title>Geoportfolio</title> <!--Changes the name on the tab-->
+	<link rel="stylesheet" href="geoportfoliocss.css"> <!--#ID# #CSS# Put the name of your CSS document and file extension in href e.g. href="geoportfolio.css"-->
+	<link rel="icon" type="image/x-icon" href="favicon.png"> <!--#ID# #FAVICON# This changes the picture shown on the tab. Change the file name under href to your desired image e.g. href="favicon.png"-->
+</head>
+
+<body> <!--Everything in between <body> and </body> affects the display of your Geoportfolio and what is shown-->
+	<!--Start of navigation bar-->
+	<div id="sidebar" class="sidebar-animate-open" style="display:none"> <!--MUST BE AT TOP OF DOCUMENT-->
+		<button onclick="close_sidebar()" class="sidebar-menu-button close-sidebar-button">&times;</button>
+		<a href="#topofpage" class="sidebar-menu-button mainbutton">Home</a>
+		<a href="#about" class="sidebar-menu-button mainbutton">About</a>
+		<a href="#academicinfo" class="sidebar-menu-button mainbutton">Academic Information</a>
+		<a href="#industryexperience" class="sidebar-menu-button mainbutton">Industry Experience</a>
+		<a href="#sap" class="sidebar-menu-button mainbutton">Skills and Proficiencies</a>
+		<a href="#credits" class="sidebar-menu-button mainbutton">Acknowledgements</a>
+		<div class="other-sidebar-info">
+			<table class="sidebar-contact-table"> 
+				<tr>
+					<td>
+						<a href="https://au.linkedin.com/" target="_blank"><img src="linkedin.png" class="sidebar-images"></a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page -->
+					</td>
+					<td>
+						<a href="https://au.linkedin.com/" target="_blank">LinkedIn</a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page-->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="https://twitter.com/RMIT" target="_blank"><img src="twitter.png" class="sidebar-images"></a>
+					</td>
+					<td>
+						<a href="https://twitter.com/RMIT" target="_blank">Twitter</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!--End of navigation bar-->
+
+	<div class="header"> <!--Code for Header that opens the sidebar. DO NOT TOUCH-->
+		<button class="sidebar-menu-button open-sidebar-button" onclick="open_sidebar()">&#9776;</button>
+	</div>
+	
+	<div class="mapbgdiv" id="topofpage">
+		<img src="mapwelcomemod.jpg" alt="map" class="mapbg">
+		<div class="title">
+			<h1>Geoportfolio</h1>
+			<h2>Jack Moriarty</h2> <!-- #ID# #NAME# INSERT YOUR NAME HERE-->
+		</div>
+	</div>
+
+	<!--ABOUT-->
+	<div class="intro bar" id="about"><h2>About</h2></div> <!-- #ID# #INTROHEADING# Change the text of the introduction bar here-->
+	<div class="about">
+		This website is the geoportfolio of Jack Moriarty which was made for the subject Professional Practice. The website entails
+		information that is academically and profesionally related to the field of geospatial science
+		<p>
+	    I am a fourth year surveying student at RMIT. I have been in the surveying industry for 5 years. 
+		I have previously worked as a cadastral surveyor and have recently moved into engineering surveying.
+		</p>
+		<p>
+		My hobbies include, drumming, drawing and volleyball. 
+		</p>	
+	<img src="self-portrait.jpg" class="self-portrait"> 
+	<!-- #ID# #SELFPORTRAIT# Change the img src name to match the name of your own self-portrait or delete my image and name your image the same name and place it in the same folder -->
+	</div>
+	
+	<!--ACADEMIC PORTFOLIO-->
+	<div class="pagetitle" id="academicinfo">
+        <span class="title-ul">Academic Portfolio Overview</span>
+    </div>
+
+	<!--SUBJECT 1-->
+	
+	<div class="bar"><h2>Cadastral </h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		This course extends your cadastral knowledge and skills gained in GEOM 2101 Cadastral Surveying 1, 
+		with particular emphasis being put on property law. You will be introduced to the history and 
+		evolution of Victoria’s Land Tenure System and the application of the Property Law Act 1958 in relation to Crown boundaries. 
+		<ul>
+		
+		</ul>
+		<p>
+			Below is a abstract of field records i created
+		</p>
+		<p>
+			<b></b> 
+		</p>
+	</div>	
+	<div class="bar"><h3>ABSTRACT</h3></div>
+	<img src="Academic-Gallery/afr.png" class="ls-image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--SUBJECT 2-->
+
+	<div class="bar"><h2>Geodesy and Satellite Navigation Systems</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		This course introduces you to Geometrical and Physical Geodesy. It reinforces your knowledge and  
+		skills about the concepts upon which the science of geodesy is based and the mathematical tools  
+		applied. It examines how terrestrial and increasingly space-based geodetic measurements and 
+		techniques are used to define, maintain and use global and local coordinate reference systems. The 
+		Earth’s gravity field, and how it is used to define and relate gravimetric and geometric vertical 
+		reference surfaces, is investigated through the study of physical geodesy.
+		
+	<!--INDUSTRY EXPERIENCE-->
+
+	<div class="pagetitle" id="industryexperience">
+        <span class="title-ul">Industry Experience</span>
+    </div>
+	<div class="academic-intro">
+		This page will cover my career in the surveying industry
+	</div>
+
+	<!--COMPANY 1-->
+
+    <div class="bar"><h3>MAC Surveying</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="" class="company-logo">
+	<div class="job-title">Assistant/ Party leader</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">2018-2022</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		My first job in the surveying industry was at MAC Surveying. This was a cadastral surveying company where i worked as an assistant in a small team.
+		I learned crutial skills such as re-establishment procedures, set out procedures, how to contact feature surveys and use of relevant hardware and software 
+		After a couple of years of working at MAC Surveying i statred work as a party leader. 
+		
+	</div>
+
+	<!--COMPANY 2-->
+
+	<div class="bar"><h3>Adept Surveys</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="adept.png" class="company-logo">
+	<div class="job-title">Party Leader </div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">2022-2023</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		Adept Surveys is a cadastral firm where i futhered my knowledge of the cadastre and skills as a party leader. 
+		Here i learnt the use of more software and hardware.
+		My primary roles were as a field surveyor conducting feature surveys, setouts and title re-establishments. 
+		At adept i learnt how to work in a team environmnent and how to communicate field information effectively through field cards
+		.			
+		</p>
+	</div>
+
+	/div>
+
+	<!--COMPANY 2-->
+
+	<div class="bar"><h3>Flatout Surveying</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="fos.png" class="company-logo">
+	<div class="job-title">Junior Surveyor </div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">2023-current</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		Flatout Surveying is an engineering survey firm that primarily contacts set outs for construction and engineering projects in Melbourne
+		.			
+		</p>
+	</div>
+
+	<!--Skills and Proficiencies table-->
+	<div class="bar" style="top:57px" id="sap"><h2>Skills and Proficiencies</h2></div> <!-- #ID# #SKILLS# -->
+    <div class="skills">
+        <table class="icontable">
+            <tr>
+                <td><img src="map.png" class="iconimages"></td>
+				<td>AutoCad</td>
+                <td><img src="map.png" class="iconimages"></td>
+				<td>12d</td>
+            </tr>
+            <tr>
+                <td><img src="mapping.png" class="iconimages"></td>
+				<td>Title re-establishment</td>
+                <td><img src="mapping.png" class="iconimages"></td>
+				<td>Feature Surveys</td>
+            </tr>
+            <tr>
+                <td><img src="mapping.png" class="iconimages"></td>
+				<td>Construction, Building, egineering Setout</td>
+            </tr>
+            <tr>
+                <td><img src="mapping.png" class="iconimages"></td>
+				<td>As-Built Surveys</td>
+                <td><img src="map.png" class="iconimages"></td>
+				<td>Drafting</td>
+            </tr>
+            <tr>
+                <td><img src="map.png" class="iconimages"></td>
+				<td>Liscad</td>
+                <td><img src="" class="iconimages"></td>
+				<td></td>
+            </tr>
+        </table>
+    </div>
+
+	<!-- #ID# #CREDITS#-->
+	<div class="pagetitle" id="credits">
+        <span class="title-ul">Credits and Attributions</span>
+    </div>
+    
+    <div class="academic-intro">
+       <b> The following programming languages and software were used to create the website</b>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Visual Studio Basic</li>
+        </ul>
+       <b>The deliverables contains content from the following subjects:</b>
+        <ul>
+            <li>Geodesy and Satellite Navigation Systems</li>
+            <li>Cadastral</li>
+        </ul>
+       <b>Special thanks to the following people who have helped me make this website with their expertise and guidance:</b>
+        <ul>
+            <li>Chayn Sun</li>
+            <li>Nicholas Lee</li>
+            <li>https://www.flaticon.com/   source for icons</li>
+        </ul>
+       
+		
+
+
+
+
+	<div class="footer"> <!-- #ID# #FOOTER# -->
+		<div class="compilationinformation"> <!-- #ID# #COMPINFO# -->
+			<b>Compilation information</b>
+			<br>Website made in Visual Studio Code.
+			<br>HTML and CSS code written by Jack as part of undergraduate Professional Practice course 
+		</div>
+		<table class="contacttable">
+			<caption><h2>Contact Information</h2></caption>
+			<tr>
+				<th><img src="mappin.png" alt="pointer" class="contactimages"></th>
+				<th><img src="mail.png" alt="email" class="contactimages"></th>
+				<th><img src="phone.png" alt="phone" class="contactimages"></th>
+			</tr>
+			<tr>
+				<th>
+					Work address:
+					<br>123 Real street, Faketown, Melbourne, 3000</th>
+				<th>
+					Email Jack Moriarty here:
+					<br><a href = "mailto:s3429894@student.rmit.edu.au">s3429894@student.rmit.edu.au</a>
+				</th>
+				<th>Mobile:
+					<br>1234567890
+				</th>
+			</tr>
+		</table>
+	</div>
+</body>
+<script> //Code for opening and closing sidebar. DO NOT TOUCH OR EDIT THIS AS THIS IS WHAT WORKS THE SIDEBAR NAVIGATION
+    function open_sidebar() {
+      document.getElementById("sidebar").style.display = "block";
+    }
+    function close_sidebar() {
+      document.getElementById("sidebar").style.display = "none";
+    }
+</script>
+</html>
